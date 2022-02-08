@@ -6,6 +6,7 @@
   background-color: #eeeeee;
   border-radius: 15px;
   margin: 5px 15px;
+  margin-right: 0;
   margin-bottom: 10px;
 }
 .today {
@@ -56,11 +57,33 @@
 /* right */
 .right {
   display: flex;
-  flex: 0.2;
+  flex: 0.1;
   flex-direction: column;
-  background-color: black;
+  background-color: ;
   border-radius: 15px;
+  padding: 10px 0;
   margin: 5px 15px;
   margin-left: 0;
   margin-bottom: 10px;
+}
+.right_menu {
+  padding: 10px 0;
+  margin-top: 50px;
+}
+.right_menu_home,
+.right_menu_diary,
+.right_menu_photo,
+.right_menu_friends {
+  display: inline-block;
+  color: white;
+  background-color: #4591cd;
+  padding: 5px 10px;
+  width: 60px;
+  margin: 5px 0;
+  text-decoration: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: dashed 1px white;
+  border-left: none;
+  font-size: 14px;
 }
