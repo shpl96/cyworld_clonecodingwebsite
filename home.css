@@ -1,13 +1,12 @@
 /* center */
 .center {
   display: flex;
-  flex: 0.6;
+  flex: 0.8;
   flex-direction: column;
   background-color: #eeeeee;
   border-radius: 15px;
   margin: 5px 10px;
   margin-right: 0;
-  margin-bottom: 10px;
 }
 .top {
   display: flex;
@@ -51,10 +50,8 @@
   flex-direction: column;
   background-color: white;
   border-radius: 15px;
-  margin: 5px;
-  margin-top: 0;
-  margin-right: 0;
-  margin-left: 0;
+  margin: 0;
+  margin-bottom: 10px;
   padding: 5px;
   text-align: center;
 }
@@ -70,7 +67,7 @@
   margin: 5px;
   background-color: white;
   flex: 0.3;
-  color: #4591cd;
+  color: #4591cd;;
   text-align: left;
   font-weight: bold;
   border-bottom: solid #808080 2px;
@@ -82,7 +79,8 @@
 }
 .news_whatsnew {
   display: inline-block;
-  width: 210px;
+  float: left;
+  width: 50%;
   background-color: white;
   margin: 5px;
   text-align: start;
@@ -112,11 +110,12 @@
 
 .news_menu {
   display: inline-block;
-  width: 210px;
+  float: right;
+  width: 50%;
   background-color: white;
   margin: 5px;
   position: relative;
-  top: -45px;
+  top: -100px;
 }
 .menu_container1 {
   margin: 2px 0;
@@ -178,7 +177,7 @@
   flex: 1;
 }
 .rickgif {
-  padding: 20px 0;
+  padding: 10px 0;
   width: 430px;
 }
 .
