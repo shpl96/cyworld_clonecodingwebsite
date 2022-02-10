@@ -1,0 +1,150 @@
+/* center */
+.center {
+  display: flex;
+  flex: 0.8;
+  flex-direction: column;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin: 5px 10px;
+  margin-right: 0;
+}
+.top {
+  display: flex;
+  flex: 0.05;
+  flex-direction: row;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+  padding-bottom: 0;
+  text-align: center;
+}
+.title {
+  display: flex;
+  flex: 0.6;
+  flex-direction: row;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin: 0;
+  padding: 0 5px;
+  text-align: center;
+}
+.tears {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0;
+}
+.address {
+  display: flex;
+  flex: 0.4;
+  flex-direction: row-reverse;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin: 0 5px;
+  padding: 0 5px;
+  vertical-align: bottom;
+}
+.main {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+  height: 520px;
+}
+
+/* main_photo */
+.main_photo {
+  display: block;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 10px;
+  font-size: 30px;
+}
+.photo1 {
+  width: 100%;
+  display: block;
+}
+.photo_title {
+  flex: 0.1;
+  background-color: #eeeeee;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 10px;
+  font-family: 'NeoDunggeunmo';
+  font-size: 30px;
+  font-weight: lighter;
+}
+.photo_gif {
+  flex: 1;
+}
+.rickcool {
+  width: 90%;
+}
+.photo_description {
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+  font-family: 'KOTRAHOPE';
+  font-size: 20px;
+}
+.photo2 {
+  width: 100%;
+  display: block;
+}
+.photo_title_notfirst {
+  flex: 0.1;
+  background-color: #eeeeee;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  text-align: left;
+  padding: 10px;
+  font-family: 'NeoDunggeunmo';
+  font-size: 30px;
+  font-weight: lighter;
+}
+.rickangry {
+  width: 90%;
+}
+.rickboo {
+  width: 90%;
+}
+/* right */
+.right {
+  display: flex;
+  flex: 0.1;
+  flex-direction: column;
+  background-color: ;
+  border-radius: 15px;
+  padding: 10px 0;
+  margin: 5px 15px;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+.right_menu {
+  padding: 10px 0;
+  margin-top: 50px;
+}
+.right_menu_home,
+.right_menu_diary,
+.right_menu_photo,
+.right_menu_friends {
+  display: inline-block;
+  color: white;
+  background-color: #4591cd;
+  padding: 5px 10px;
+  width: 60px;
+  margin: 5px 0;
+  text-decoration: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: dashed 1px white;
+  border-left: none;
+  font-size: 17px;
+  font-family: 'KOTRAHOPE';
+  font-weight: lighter;
+}

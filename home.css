@@ -33,6 +33,7 @@
   font-size: 20px;
   font-weight: bolder;
   margin: 0;
+  
 }
 .address {
   display: flex;
@@ -43,6 +44,8 @@
   margin: 0 5px;
   padding: 0 5px;
   vertical-align: bottom;
+  font-family: 'KOTRAHOPE';
+  font-size: 17px;
 }
 .main {
   display: flex;
@@ -71,8 +74,12 @@
   text-align: left;
   font-weight: bold;
   border-bottom: solid #808080 2px;
+  font-family: 'NeoDunggeunmo';
+  font-size: 20px;
+  font-weight: lighter;
 }
 .news_box {
+  font-family: 'CookieRun-Regular';
   background-color: white;
   flex: 1;
   flex-direction: row;
@@ -95,7 +102,7 @@
   padding: 0 2px;
   color: white;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
 }
 .container2 {
   display: inline-block;
@@ -104,7 +111,7 @@
   padding: 0 2px;
   color: white;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
 }
 /* news menu */
 
@@ -116,8 +123,10 @@
   margin: 5px;
   position: relative;
   top: -100px;
+  font-family: 'CookieRun-Regular';
 }
 .menu_container1 {
+  display: block;
   margin: 2px 0;
   font-weight: bold;
   font-size: 14px;
@@ -131,16 +140,20 @@
 }
 .diary {
   display: inline-block;
+  margin-right: 40px;
 }
 .photo {
   display: inline-block;
+  padding-right: 40px;
 }
 .board {
   display: inline-block;
+  margin-right: 50px;
 }
 
 .friends {
   display: inline-block;
+  padding-right: 35px;
 }
 .diary span:nth-child(1) {
   color: #4591cd;
@@ -172,6 +185,9 @@
   padding: 0;
   color: #4591cd;
   border-bottom: solid #808080 2px;
+  font-family: 'NeoDunggeunmo';
+  font-size: 20px;
+  font-weight: lighter;
 }
 .miniroom_body {
   flex: 1;
