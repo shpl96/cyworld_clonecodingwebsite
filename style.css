@@ -7,14 +7,17 @@ h2 {
 
 body {
   background-color: #c9c9c9;
-  background-image: url('images/pattern.png');
+  background-image: url('./images/back.PNG');
   background-size: 100px;
+  margin: 0;
 
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+  width: auto;
+  height: auto;
 }
 .bookcover {
   position: relative;
@@ -46,4 +49,5 @@ body {
   height: 590px;
   border-radius: 15px;
   display: flex;
+  flex-direction: row;
 }

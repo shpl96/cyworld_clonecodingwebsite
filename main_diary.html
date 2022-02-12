@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohee mini homepage</title>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="main_diary_style.css">
+    <script src="https://kit.fontawesome.com/e2e95fa20e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bookcover">
+        <div class="bookdot">
+            <div class="page">
+                <!-- left -->
+                <div class="left">
+                    <div class="today">
+                        <div class="todayColor">TODAY <span>28</span> | TOTAL 234918
+                        </div>
+                    </div>
+                    <div class="intro">
+                        <div class="image">
+                            <img src="images/rick.png" 
+                            alt="profile photo"
+                            class="intro_image">
+                        </div>
+                        <div class="description">
+                            I am Pickle Rick!!!  I loooove buuuuuurping! 🤪
+                        </div>
+                        <div class="name">Rick the Pickle🥒</div>
+                        <div class="dropdown">
+                            <button class="dropdown_button"> 파도타기 ▼
+                            <div class="dropdown_content">
+                                <a href="#">노션으로 가기</a>
+                                <a href="#">2022년으로 가기</a>
+                            </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- center -->
+                    <div class="center">
+
+                        <div class="top">
+                            <div class="title">
+                                <span class="tears">나는 ಥ_ಥ을 흘린ㄷr...</span>
+                            </div>
+                            <div class="address">
+                                <span>url(cyworld.com)</span>
+                            </div>
+                        </div>
+
+                        <div class="main">
+                            <div class="main_diary">
+                                <div class="calender">
+                                    <div class="date">02.11. <br> FEB</div>
+                                    <div class="calenderbox">
+                                        <span class="weekday">1</span> 
+                                        <span class="weekday">2</span>
+                                        <span class="weekday">3</span>
+                                        <span class="weekday">4</span>
+                                        <span class="sat"> 5 </span> 
+                                        <span class="sun"> 6 </span> 
+                                        <span class="weekday">7</span> 
+                                        <span class="weekday">8</span> 
+                                        <span class="weekday">9</span> 
+                                        <span class="weekday">10</span> 
+                                        <span class="weekday">11</span> 
+                                        <span class="sat"> 12 </span> 
+                                        <span class="sun">13</span>
+                                        <span class="weekday">14</span>
+                                        <span class="weekday">15</span> 
+                                        <span class="weekday">16</span> 
+                                        <span class="weekday">17</span> 
+                                        <span class="weekday">18</span> 
+                                        <span class="sat">19</span> <br>
+                                        <span class="sun">20</span>
+                                        <span class="weekday">21</span>
+                                        <span class="weekday">22</span> 
+                                        <span class="weekday">23</span> 
+                                        <span class="weekday">24</span> 
+                                        <span class="weekday">25</span>
+                                        <span class="sat">26</span> 
+                                        <span class="sun">27</span>
+                                        <span class="weekday">28</span>
+                                    </div>
+                                </div>
+
+
+                                <div class="diary">
+                                    <div class="diarybox">
+                                        <div class="diary_title">
+                                            12.FEB.2022
+                                        </div>
+                                        <div class="diary_content">
+                                            자, 이제 날 사랑해봐...
+                                            못할거면 매정하게 버려.
+                                            서럽게 울어라도 보게. 
+                                        </div>
+                                    </div>
+
+                                    <div class="diarybox">
+                                        <div class="diary_title">
+                                            03.FEB.2022
+                                        </div>
+                                        <div class="diary_content">
+                                            난 가끔 눈물을 흘린다...<br>
+                                            가끔은 눈물을 ㅊrㅁ을 수 없는 내가 별루다...<br>
+                                            맘이 아파서 소리치며 울 수 있다는 건<br>
+                                            좋은거야...
+                                        </div>
+                                    </div>
+
+                                    <div class="diarybox">
+                                        <div class="diary_title">
+                                            27.JAN.2022
+                                        </div>
+                                        <div class="diary_content">
+                                            <img src="images/onion.jfif" 
+                                            alt="onion"
+                                            class="onion">
+                                            내가 양파냐...
+                                            ╚(•⌂•)╝
+                                        </div>
+                                    </div>
+
+                                    <div id= "text" class="hidden"></div>
+
+                                    <button 
+                                    class="diary_btn"
+                                    id= "button"
+                                    onclick="getTextFile()">
+                                        <i class="fa fa-solid fa-lock icon"></i>
+                                        비밀일기장
+                                    </button>
+        
+
+                            </div>
+                            
+                        </div>    
+
+                    </div>
+    
+    
+
+            </div> 
+                
+             <!-- right -->
+             <div class="right">
+                <div class="right_menu">
+                    <a 
+                    href= "cyworld.html"
+                    class="right_menu_home"> 홈
+                    </a>
+                    <a  
+                    href= "main_diary.html"
+                    class="right_menu_diary">다이어리
+                    </a>
+                    <a 
+                    href= "main_photo.html"
+                    class="right_menu_photo">사진첩
+                    </a>
+                    <a 
+                    href= #
+                    class="right_menu_friends">방명록
+                    </a>
+                </div>
+            </div>
+
+            
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <script>
+    function getTextFile(){
+        var input= document.createElement("input");
+        input.type= "file";
+        input.accept= "text/plain";
+        input.onchange= function(event){
+            processFile(event.target.files[0]);
+        };
+        input.click();
+    }
+
+    function processFile(file){
+        var reader= new FileReader();
+        reader.readAsText(file, "utf-8");
+
+        reader.onload= function() {
+            document.getElementById("text").innerText= reader.result;
+
+        };
+    }
+
+    </script>
+
+
+</body>
+</html>

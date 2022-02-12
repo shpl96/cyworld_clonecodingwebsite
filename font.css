@@ -21,3 +21,10 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'SangSangYoungestDaughter';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/SangSangYoungestDaughter.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
