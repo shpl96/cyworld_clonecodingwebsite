@@ -1,0 +1,205 @@
+/* center */
+.center {
+  display: flex;
+  flex: 0.8;
+  flex-direction: column;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin: 5px 10px;
+  margin-right: 0;
+}
+.top {
+  display: flex;
+  flex: 0.05;
+  flex-direction: row;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+  padding-bottom: 0;
+  text-align: center;
+}
+.title {
+  display: flex;
+  flex: 0.6;
+  flex-direction: row;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin: 0;
+  padding: 0 5px;
+  text-align: center;
+}
+.tears {
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0;
+}
+.address {
+  display: flex;
+  flex: 0.4;
+  flex-direction: row-reverse;
+  background-color: #eeeeee;
+  border-radius: 15px;
+  margin: 0 5px;
+  padding: 0 5px;
+  vertical-align: bottom;
+}
+.main {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 5px;
+  text-align: center;
+  height: 520px;
+}
+
+/* main_friends */
+.main_friends {
+  display: flex;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 10px;
+  font-size: 30px;
+  height: 500px;
+  flex-direction: column;
+}
+.friend_title {
+  padding: 10px;
+  background-color: #eeeeee;
+  flex: 0.1;
+  font-family: 'NeoDunggeunmo';
+  color: #4591cd;
+  font-size: 20px;
+  text-align: left;
+}
+.friendName {
+  color: blue;
+}
+.icon_f {
+  color: black;
+}
+.friend_box {
+  flex: 1;
+  margin-bottom: 30px;
+}
+/* morty */
+.friend_image {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  background-image: url('./images/bg1.jpg');
+  background-size: cover;
+  margin: 10px;
+  margin-left: 0;
+  position: relative;
+  left: -10px;
+}
+.friend_content {
+  display: inline-block;
+  width: 300px;
+  position: relative;
+  top: 20px;
+  font-family: 'SangSangYoungestDaughter';
+  font-size: 16px;
+  text-align: left;
+}
+.friends_profile {
+  height: 80%;
+  position: relative;
+  left: -25px;
+  top: 10px;
+}
+/* meeseeks */
+.friend_image_meeseeks {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  background-image: url('./images/bg3.jpg');
+  background-size: cover;
+  margin: 10px;
+  margin-left: 0;
+  position: relative;
+  left: -10px;
+}
+.friends_profile_meeseeks {
+  height: 80%;
+  position: relative;
+  left: -10px;
+  top: 10px;
+}
+.friend_content_meeseeks {
+  display: inline-block;
+  width: 300px;
+  position: relative;
+  top: -30px;
+  font-family: 'SangSangYoungestDaughter';
+  font-size: 16px;
+  text-align: left;
+}
+/* picklerick */
+.friend_image_picklerick {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  background-image: url('./images/bg2.png');
+  background-size: cover;
+  margin: 10px;
+  margin-left: 0;
+  position: relative;
+  left: -10px;
+}
+.friends_profile_picklerick {
+  height: 80%;
+  position: relative;
+  left: -10px;
+  top: 10px;
+}
+.friend_content_picklerick {
+  display: inline-block;
+  width: 300px;
+  position: relative;
+  top: -40px;
+  font-family: 'SangSangYoungestDaughter';
+  font-size: 16px;
+  text-align: left;
+}
+
+/* right */
+.right {
+  display: flex;
+  flex: 0.1;
+  flex-direction: column;
+  background-color: ;
+  border-radius: 15px;
+  padding: 10px 0;
+  margin: 5px 15px;
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+.right_menu {
+  padding: 10px 0;
+  margin-top: 50px;
+}
+.right_menu_home,
+.right_menu_diary,
+.right_menu_photo,
+.right_menu_friends {
+  display: inline-block;
+  color: white;
+  background-color: #4591cd;
+  padding: 5px 10px;
+  width: 60px;
+  margin: 5px 0;
+  text-decoration: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: dashed 1px white;
+  border-left: none;
+  font-size: 17px;
+  font-family: 'KOTRAHOPE';
+  font-weight: lighter;
+}
